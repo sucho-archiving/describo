@@ -36,7 +36,13 @@
         },
         "win": {},
         "linux": {
-            "target": "tar.bz2"
+            "target": [
+                "tar.gz",
+                "snap",
+                "AppImage",
+                "deb",
+                "flatpak"
+            ]
         },
         "publish": [
             "github"
